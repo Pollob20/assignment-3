@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+
+  <!-- Tailwind and daisy Ui cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://kit.fontawesome.com/46719be025.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/46719be025.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+  <!-- T-ailwind css-->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn-A3': '#FF4240',
+            'sell': '#FF4240',
+            'btn-B': '#FF4240',
+            
+            'ts': 'rgba(19, 19, 24, 0.6)',
+            
+
+          }
+        }
+      }
+    }
+  </script>
+
+
+  <style>
+    .font-p {
+      font-family: 'Manrope', sans-serif;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .img1 {
+      height: 150px;
+      width: 150px;
+      bottom: 10px;
+      left: 25px;
+      position: relative;
+      background-image: url(./Group\ 9.png);
+      background-repeat: no-repeat;
+    }
+
+    .t1 {
+      position: relative;
+      left: -10px;
+      top: -15px;
+      color: #131318;
+      text-align: center;
+      font-family: Manrope;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+
+    }
+
+    .img2 {
+      height: 150px;
+      width: 150px;
+      bottom: 10px;
+      left: 25px;
+      position: relative;
+      background-image: url(./Group\ 9\ \(1\).png);
+      background-repeat: no-repeat;
+    }
+
+
+    .img3 {
+      height: 150px;
+      width: 150px;
+      bottom: 10px;
+      left: 25px;
+      position: relative;
+      background-image: url(./Group\ 9\ \(2\).png);
+      background-repeat: no-repeat;
+    }
+
+
+    .img4 {
+      height: 150px;
+      width: 150px;
+      bottom: 10px;
+      left: 25px;
+      position: relative;
+      background-image: url(./Group\ 9\ \(3\).png);
+      background-repeat: no-repeat;
+    }
+
+    .img11 {
+      background-image: url(./Images/2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      border-radius: 3%;
+      height: 338px;
+    }
+
+    .img12 {
+      background-image: url(./Images/4.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      border-radius: 3%;
+      height: 450px
+    }
+
+    .img13 {
+      background-image: url(./Images/3.png);
+      background-repeat: no-repeat;
+      border-radius: 3%;
+
+      background-size: cover;
+      height: 338px;
+    }
+  </style>
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body >
+  <!-- Header Section-->
+
+
+  <header class="md:container md:mx-auto">
+    <nav class="mx-auto font-popins font-semibold items-center justify-between gap-10">
+      <div class="navbar bg-base-100 items-center  justify-between">
+        <div>
+          <div class="dropdown ">
+
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+
+
+
+
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-1
+                      shadow bg-base-100 rounded-box w-52">
+              <li><a><span class="text-text font-semibold ">HOME</span></a></li>
+              <li><a>About</a></li>
+              <li><a>Page</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Content</a></li>
+            </ul>
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <a class="btn btn-ghost text-3xl text-semiblod">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex ">
+          <ul class="menu menu-horizontal px-1">
+            <li><a><span class="text-text font-semibold ">HOME</span></a></li>
+            <li><a>About</a></li>
+            <li><a>Page</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Content</a></li>
+          </ul>
+        </div>
+
+
+        <div class="navbar-en w-50% ">
+          <!--costom-->
+          <div class="sm:block hidden">
+            <button class="btn btn-ghost btn-circle justify-center  items-center ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5   justify-center items-center" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg> </button>
+          </div>
+
+
+          <button>
+            <a class="btn  bg-btn-A3 text-white">Get Ticket</a>
+          </button>
+
+
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section For Slide-->
+
+    <section>
+
+
+      <div class="carousel w-full flex">
+        <div id="slide1" class="carousel-item relative w-full">
+
+
+          <img src="./Images/1.png" class="w-full" alt="" />
+
+         
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./img2.jpg" class="w-full" alt="" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+  </header>
+
+
+
+
+
+
+  <section class=" container mx-auto font-p my-48 text-center">
+
+
+    <div>
+      <h1 class="text-4xl font-p font-bold font-p">Professional Hockeys Club</h1>
+      <br>
+      <p class="lg:mx-w-3xl mx-auto">The National Hockey League (NHL; French: Ligue nationale de hockey
+        [liɡ nɑsjɔnal də ɔkɛ], LNH) is a professional <br>ice hockey league in North
+        America comprising 32 teams—25 in the United States and 7 in Canada.</p>
+    </div>
+
+
+
+
+
+
+
+    <!-- card Container-->
+
+    <div class="mb-10 my-36 grid grid-cols-1  lg:grid-cols-4">
+
+      <div class=" card card-compact  shadow-xl p-6">
+        <div class=" mx-auto my-auto">
+          <figure class="img1">
+            <h1 class="t1">87%</h1>
+          </figure>
+
+        </div>
+        <div class="card-body">
+          <h2 class="text-1xl font-semibold">Prayer Facility</h2>
+          <p>Administration and Community Facility <br>
+            In Britain, a graduate is a person </p>
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="card card-compact  shadow-xl p-6">
+        <div class=" mx-auto my-auto">
+          <figure class="img2">
+            <h1 class="t1">95%</h1>
+          </figure>
+
+        </div>
+        <div class="card-body">
+          <h2 class="text-1xl font-semibold mb-10">Experienced Coach</h2>
+          <p>A coach is someone who trains a person <br>
+            or team of people in a particular sport.</p>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="card card-compact  shadow-xl p-6">
+        <div class=" mx-auto my-auto">
+          <figure class="img3">
+            <h1 class="t1">90%</h1>
+          </figure>
+
+        </div>
+        <div class="card-body">
+          <h2 class="text-1xl font-semibold">Senior Player</h2>
+          <p>"senior" means the top level of competition.</p>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="card card-compact  shadow-xl p-6">
+        <div class=" mx-auto my-auto">
+          <figure class="img4">
+            <h1 class="t1">80%</h1>
+          </figure>
+
+        </div>
+        <div class="card-body">
+          <h2 class="text-1xl font-semibold">Training Ground</h2>
+          <p>In Britain, who has successfully <br>
+            completed a degree at a university</p>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!-- don't know why...But i have spent my 5 hour in this section maybe i am a losser-->
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+  <!-- Next Section Start from here-->
+  <main class="container mx-auto font-p max-h-lvh">
+    <section class="grid grid-cols-1">
+      <h1 class="font-semibold text-3xl text-center">Program Sections</h1>
+      <br>
+      <p class="text-center lg:mx-w-3xl mx-auto" mb-10>What is a short paragraph about hockey?
+        Essay On Hockey in English for Class 1, 2 3: 10 Lines ...
+        Hockey is considered the national sport of India due <br>
+        to its popularity and outstanding performance. It is an important game. <br>
+        India has won 6 gold medals at the Olympics in Hockey. <br>
+        Even when cricket was not a popular sport in India, Hockey was a favourite
+        .</p>
+      <br>
+      <br>
+
+
+
+
+
+
+
+      <div class="font-p grid grid-cols-1 gap-2 lg:grid-cols-2 ">
+
+        <div>
+          <div class="card  ">
+            <figure class="img11">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-semibold text-white">Junior Program!</h2>
+                <p class="text-white">you have left to go to join the real “elite” of the programming world (the actual craftspeople who dictate the future of the</p>
+                <div class="card-actions justify-start">
+                  <button class="btn  bg-btn-A3 text-white">Register Now!</button>
+                </div>
+
+            </figure>
+
+          </div>
+        </div>
+
+        <div>
+          <div class="card ">
+            <figure class="img13">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-semibold text-white">Teenager Program</h2>
+                <p class="text-white">software engineering world that is when you will graduate to being an intermediate developer. </p>
+                <div class="card-actions justify-start">
+                  <button class="btn text-white bg-btn-A3  relative lg:  ">Register Now!</button>
+                </div>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="my-3 grid grid-flow-row">
+        <div class="card  ">
+          <figure class="img12">
+            <div class="card-body">
+              <h2 class="card-title text-white text-2xl font-semibold ">Professional Program</h2>
+              <p class="text-white">Edit: for those who think my generalization
+                 about naming things is a bit harsh, please read this famous quote.</p>
+              <div class="card-actions justify-start">
+                <button class="btn  bg-btn-A3 text-white"> Register Now!</button>
+              </div>
+
+
+            </div>
+          </figure>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+
+
+    <section class="container mx-auto font-p max-h-lvh">
+
+
+
+      <h1 class="font-semibold text-3xl text-center ">Our New Products</h1>
+      <br>
+      <p class="text-center lg:mx-w-3xl mx-auto" mb-10>What is a short paragraph about hockey?
+        Essay On Hockey in English for Class 1, 2 3: 10 Lines ...
+        Hockey is considered the national sport of India due <br>
+        to its popularity and outstanding performance. It is an important game. <br>
+        India has won 6 gold medals at the Olympics in Hockey. <br>
+        Even when cricket was not a popular sport in India, Hockey was a favourite
+        .</p>
+      <br>
+      <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--sell section start-->
+      
+      <div class="lg:w-[1200px] w-[300px]  lg:h-[900px]   my-10 gap-3 grid lg:grid-cols-2 p-8 ">
+
+        <!--SECTION START-->
+        <div class="grid lg:grid-cols-2 grid-cols-1   border-gray-600 lg:gap-4 			">
+          
+          <div class="lg:w-3/1 -right-14	pb-10  h-[172px] relative flex-1">
+            <img src="./Images/5.png"  alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative h-1/3  left-9  sm:left-16   lg:w-6/4 lg:-left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--2nd part  -->
+
+
+
+
+
+         <!--2ND SECTION START-->
+
+         <div class="relative grid lg:grid-cols-2 grid-cols-1   border-gray-400	lg:left-52		">
+          
+          <div class="lg:w-3/1  h-[172px] relative left-16  lg:left-36">
+            <img src="./Images/6.png" class="lg:object-cover" alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative   lg:w-6/4 lg:left-14 left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">World Cup Football</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--2nd part  -->
+
+
+      
+      <!--1st END SECTION-->
+
+          <!--2nd part Start-->
+          
+        <!--SECTION START-->
+        <div class="grid lg:grid-cols-2 grid-cols-1   border-gray-600 lg:gap-4 			">
+          
+          <div class="lg:w-3/1 -right-14	pb-10  h-[172px] relative flex-1">
+            <img src="./Images/7.png"  alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative h-1/3  left-9  sm:left-16   lg:w-6/4 lg:-left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">Cap For Hockeys</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--2nd part  -->
+
+
+
+
+
+         <!--2ND SECTION START-->
+
+         <div class="relative grid lg:grid-cols-2 grid-cols-1   border-gray-400	lg:left-52		">
+          
+          <div class="lg:w-3/1  h-[172px] relative left-16  lg:left-36">
+            <img src="./Images/8.png" class="lg:object-cover" alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative   lg:w-6/4 lg:left-14 left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">World Cup Flags jursy</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+           <!--3nd part Start-->
+           
+        <!--SECTION START-->
+        <div class="grid lg:grid-cols-2 grid-cols-1   border-gray-600 lg:gap-4 			">
+          
+          <div class="lg:w-3/1 -right-14	pb-10  h-[172px] relative flex-1">
+            <img src="./Images/9.png"  alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative h-1/3  left-9  sm:left-16   lg:w-6/4 lg:-left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">Criket Helmet</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--2nd part  -->
+
+
+
+
+
+         <!--2ND SECTION START-->
+
+         <div class="relative grid lg:grid-cols-2 grid-cols-1   border-gray-400	lg:left-52		">
+          
+          <div class="lg:w-3/1  h-[172px] relative left-16  lg:left-36">
+            <img src="./Images/10.png" class="lg:object-cover" alt="">
+          </div>
+          
+          
+           <!--writen sit-->
+          <div class="relative   lg:w-6/4 lg:left-14 left-10 ">
+            <!--Icon center-->
+            <div class="flex gap-6 items-center text-xl">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <h1 class="">5.0</h1>
+
+              <i class="fa-light fa-eye"></i>
+              <h1 class="">20</h1>
+              <i class="fa-regular fa-heart"></i>
+              <h1 class="">299</h1>
+            </div>
+            
+           
+            <!--writen sit-->
+            <div>
+              <div>
+                <h1 class="text-2xl font-bold">World Cup Football</h1>
+               <p class="text-xl">Dolor sit ametfa Ut urna diam quis sagittis. </p>
+                
+              </div>
+              <!--price Tag -->
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <h1 class="text-1xl font-semibold">
+                    <span class=" text-lime-700 text-xl">PRICE-$22.00</span></h1>
+                </div>
+                <div class="flex -left-9 gap-1">
+                  <br>
+                  <i class="fa-light fa-cart-shopping"></i>
+                  <h1 class="text-sm lg:-left-3">Delivery Fee:Free</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="lg:w-[1200px] w-[300px]  lg:h-[900px] h-[453px]" >
+
+
+
+      
+      
+       </div>
+
+     
+      
+    
+
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <!--section for the Clint qution-->
+    <section class="lg:w-[1200px] w-[300px]  lg:h-[900px] item-center ">
+    
+    <h1 class="font-semibold text-3xl text-center ">Clients Question</h1>
+    <br>
+    <p class="text-center lg:mx-w-3xl mx-auto" mb-10>What is a short paragraph about hockey?
+      Essay On Hockey in English for Class 1, 2 3: 10 Lines ...
+      Hockey is considered the national sport of India due <br>
+      to its popularity and outstanding performance. It is an important game. <br>
+      India has won 6 gold medals at the Olympics in Hockey. <br>
+      Even when cricket was not a popular sport in India, Hockey was a favourite
+      .</p>
+    <br>
+    <br><br>
+
+
+
+    <div class="grid lg:grid-cols-2 grid-cols-1 gri">
+
+      <div>
+        <img src="./Images/11.png" alt="">
+      </div>
+      <div><div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[280px]">Our Equipment</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[280px]">Hockey Training</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[280px]">
+          Private Lessons
+        </span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[290px]">Ski Touring</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[300px]">Booking</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[300px]">Pricings</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[300px]">Our Servies</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <div tabindex="0" role="button"  class="btn w-[700px] relative lg:-left-32  m-1"><span class="relative lg:-left-[300px]">Compline</span></div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+    
+    
+    
+    
+    
+    </div>
+    </div>
+
+
+
+
+
+    <footer class="footer items-center p-4 bg-slate-500		 text-neutral-content">
+     
+      <nav class="grid-flow-col gap-4 place-self-center justify-self-center ">
+        
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+        </a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        
+        <i class="fa-brands fa-github fa-2xl" style="color: #FFD43B;"></i>
+     
+     
+      </nav>
+    </footer>
+    <br>
+    <br>
+    <br>
+
+
+    <footer class="mt-100">
+      <footer class="footer grid-rows-1 p-10 bg-neutral text-neutral-content">
+        <nav>
+          <h6 class="footer-title">Get In Touch</h6> 
+          <a class="link link-hover">Branding</a>
+         <h1>Dit amet <br>
+           Condimentum  adipiscing<br>
+             Purus urna. </h1>
+             <i class="fa-light fa-message">what's up</i>
+             <i class="fa-regular fa-phone">    01949095667</i>  
+             
+
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Social</h6> 
+          <a class="link link-hover">Twitter</a>
+          <a class="link link-hover">Instagram</a>
+          <a class="link link-hover">Facebook</a>
+          <a class="link link-hover">Github</a>
+        </nav> 
+       
+      </footer>
+  
+      
+        
+    </footer>
+
+
+  </section>
+   
+
+
+
+
+     
+   
+
+
+
+  </main>
+
+
+
+
+
+  
+
+
+
+</body>
+
+</html>
